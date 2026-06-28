@@ -2,14 +2,14 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace game;
+namespace PlanterDefense;
 
-public class Game1 : Game
+public class GameMain : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
-    public Game1()
+    public GameMain()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";

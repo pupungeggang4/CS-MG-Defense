@@ -1,4 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+    <PlatformTarget>x64</PlatformTarget>
+    <!-- Forces the build output to target x64 strictly -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier> 
+    <!-- Use osx-x64 for Mac or linux-x64 for Linux ARM environments -->
+    </PropertyGroup>
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
